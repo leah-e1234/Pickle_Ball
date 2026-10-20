@@ -2,17 +2,19 @@
   box-sizing: border-box;
 }
 
+
 .modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: none;
+  border-radius: 85px;
   z-index: 10;
-  background-color: white;
-  width: 500px;
+  background-color: black;
+  width: 1180px;
+  height: 689px;
   max-width: 80%;
 }
 
@@ -25,12 +27,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: none;
 }
 
 .modal-header .title {
   font-size: 1.25rem;
   font-weight: bold;
+  color: #9EDA00;
 }
 
 .modal-header .close-button {
@@ -44,7 +47,9 @@
 
 .modal-body {
   padding: 10px 15px;
+  color: #9EDA00;
 }
+
 
 #overlay {
   position: fixed;
