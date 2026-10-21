@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* modal info */
+/* MODAL JAVA STUFF */
 
 .modal {
   position: fixed;
@@ -74,7 +74,10 @@
 }
 
 
-/* non-java */
+/* ------------------------------------------- NON-JAVA ------------------------------------------- */
+
+
+/* CSS glow button */
 
 .glow-button {
     display: inline-block;
@@ -85,6 +88,7 @@
     text-transform: uppercase;
     text-decoration: none;
     background-color: #00D4BF;
+    border: none;
     border-radius: 89px;
 }
 
@@ -97,6 +101,11 @@
     overflow: hidden;
 }
 
+/* html */
+
+html {
+  background-image: url(images/bkg-image.png);
+}
 
 nav {
   display: flex;
@@ -104,5 +113,25 @@ nav {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  width: 144px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul .logo {
+  display: flex;
+  width: auto; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
 }
 
