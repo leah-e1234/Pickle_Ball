@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* modal info */
 
 .modal {
   position: fixed;
@@ -71,3 +72,37 @@
   opacity: 1;
   pointer-events: all;
 }
+
+
+/* non-java */
+
+.glow-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: Black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #00D4BF;
+    border-radius: 89px;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px rgba(0, 180, 162, 100), 
+    0 0 40px rgba(0, 176, 158, 100),
+    0 0 60px rgba(0, 162, 146, 100);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+
+nav {
+  display: flex;
+  width: 1080px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
