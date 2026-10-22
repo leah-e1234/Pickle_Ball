@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -76,10 +80,6 @@
 
 /* ------------------------------------------- NON-JAVA ------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
 /* 
 
 .boldonse-regular {
@@ -107,18 +107,20 @@ html {
 /* CSS glow button */
 
 .glow-button {
+    display: flex;
+    justify-content: center;
     font-family: "Inter", sans-serif;
     display: inline-block;
     padding: 15px 30px;
     font-size: 32px;
     font-weight: 400;
     color: Black;
-    text-transform: uppercase;
     text-decoration: none;
     background-color: #00D4BF;
     border: none;
     border-radius: 89px;
-    padding: 20px 87px;
+    padding: 20px 550px;
+    
 }
 
 .glow-button:hover {
@@ -172,7 +174,7 @@ nav ul .logo {
 }
 
 h1 {
-  font-family: "Boldonse", sans-serif;
+  font-family: "Boldonse", system-ui;
   font-weight: 400;
   font-size: 7.7rem;
   text-align: center;
