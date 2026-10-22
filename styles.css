@@ -43,7 +43,7 @@
   outline: none;
   background: none;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   position: absolute;
   right: 0;
@@ -76,20 +76,49 @@
 
 /* ------------------------------------------- NON-JAVA ------------------------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* 
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+
+html {
+  font-size: 10px;
+}
+
+
 
 /* CSS glow button */
 
 .glow-button {
+    font-family: "Inter", sans-serif;
     display: inline-block;
     padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 400;
     color: Black;
     text-transform: uppercase;
     text-decoration: none;
     background-color: #00D4BF;
     border: none;
     border-radius: 89px;
+    padding: 20px 87px;
 }
 
 .glow-button:hover {
@@ -101,19 +130,26 @@
     overflow: hidden;
 }
 
+
+
 /* html */
 
 html {
   background-image: url(images/bkg-image.png);
+  background-repeat: no-repeat;
+  width: auto;
 }
 
 nav {
   display: flex;
-  width: 1080px;
+  width: auto;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   list-style-type: none;
+  align-items: center;
+  margin-left: 53px;
+  margin-right: 43px;
 }
 
 nav ul {
@@ -135,3 +171,10 @@ nav ul .logo {
   padding: 20px 0px 20px 0px;
 }
 
+h1 {
+  font-family: "Boldonse", sans-serif;
+  font-weight: 400;
+  font-size: 7.7rem;
+  text-align: center;
+  color: #ffffff;
+}
