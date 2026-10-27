@@ -17,10 +17,14 @@
   border: none;
   border-radius: 85px;
   z-index: 10;
-  background-color: black;
+  background-image: url(images/grey-ball.png);
   width: 1180px;
   height: 689px;
   max-width: 80%;
+}
+
+.modal:hover {
+  background-image: url(images/glow-ball.png);
 }
 
 .modal.active {
@@ -97,7 +101,7 @@
   padding: 26px 87px;
   border-radius: 89px;
   display: flex;
-  align-items: end;
+  justify-content: right;
   margin-right: 100px;
   margin-top: 51px;
   margin-bottom: 154px;
@@ -111,7 +115,7 @@
   border-radius: 89px;
 }
 
-/* ------------------------- modal css text ------------------------- */
+/* ------------------------- ^^ modal css text ^^ ------------------------- */
 
 #overlay {
   position: fixed;
@@ -159,16 +163,12 @@ html {
 
 /* CSS glow button */
 
-.button-position {
-  justify-content: center;
-}
 
 .glow-button {
     display: flex;
     justify-content: center;
     font-family: "Inter", sans-serif;
     display: inline-block;
-    padding: 15px 30px;
     font-size: 32px;
     font-weight: 400;
     color: Black;
