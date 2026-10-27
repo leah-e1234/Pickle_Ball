@@ -59,6 +59,59 @@
   color: #9EDA00;
 }
 
+/* ------------------------- modal css text ------------------------- */
+
+.title {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  width: 543px;
+  margin-left: 537px;
+  margin-right: 100px;
+  margin-top: 154px;
+  text-align: right;
+}
+
+.modal-body-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 480px;
+  margin-left: 600px;
+  margin-right: 100px;
+  margin-top: 22px;
+  text-align: right;
+}
+
+.purchase-button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 40px;
+  font-style: italic;
+  color: #000000;
+  background: #D8D8D8;
+  padding: 26px 87px;
+  border-radius: 89px;
+  display: flex;
+  align-items: end;
+  margin-right: 100px;
+  margin-top: 51px;
+  margin-bottom: 154px;
+  width: 445px;
+}
+
+.purchase-button:hover {
+  color: #000000;
+  background: #00D4BF;
+  padding: 26px 87px;
+  border-radius: 89px;
+}
+
+/* ------------------------- modal css text ------------------------- */
 
 #overlay {
   position: fixed;
@@ -106,6 +159,10 @@ html {
 
 /* CSS glow button */
 
+.button-position {
+  justify-content: center;
+}
+
 .glow-button {
     display: flex;
     justify-content: center;
@@ -140,6 +197,8 @@ html {
   background-image: url(images/bkg-image.png);
   background-repeat: no-repeat;
   width: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
