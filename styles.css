@@ -50,12 +50,14 @@
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 4rem;
+  font-weight: 300;
   color: white;
   position: absolute;
   right: 0;
   left: auto;
+  padding-right: 80px;
+  padding-top: 140px;
 }
 
 .modal-body {
